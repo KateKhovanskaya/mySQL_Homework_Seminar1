@@ -19,6 +19,6 @@ WHERE manufacturer like "%Samsung%";
 SELECT * FROM dz_seminar1.mobile_phones
 WHERE product_name rlike "[0-9]+";
 
-4.4 Найти товары, в которых есть цифра 8
+-- 4.4 Найти товары, в которых есть цифра 8
 SELECT * FROM dz_seminar1.mobile_phones
 WHERE product_name like "%8%";
